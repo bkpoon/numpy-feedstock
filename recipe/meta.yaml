@@ -25,6 +25,8 @@ source:
   # - git_url: https://github.com/intel/x86-simd-sort.git
   #   git_rev: 6283f2491cebe2332795943e30e31828178e5efd
   #   folder: numpy/core/src/npysort/x86-simd-sort
+  - patches:
+      - test.patch
 
 build:
   number: 0
